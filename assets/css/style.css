@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+div {
+  width: 60%;
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+div h1 {
+  font-size: 36px;
+}
+
+div #button {
+  margin-top: 10px;
+  padding: 10px 40px;
+}
+div #message-input {
+  width: 500px;
+}
+
+#warnung {
+  color: red;
+  display: none;
+}
+p{
+  font-size: 24px;
+}
